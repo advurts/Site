@@ -1,0 +1,283 @@
+/* ----------------------elements---------------------- */
+body {
+  background-color: #484650;
+  margin: 0;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+h1 {
+  color: #85CFCB;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Indie Flower', cursive;
+}
+h2 {
+  color: #85CFCB;
+  font-size: 3rem;
+  font-weight: normal;
+  font-family: 'Boogaloo', cursive;
+}
+h3 {
+  color: #85CFCB;
+  font-family: 'Boogaloo', cursive;
+  font-size: 30px;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  }
+p {
+  color: #FFE3ED;
+  font-size: 1.3rem;
+}
+hr {
+  border: 10px dotted #181e34;
+  ;
+  border-style: none none dotted;
+  width: 6%;
+  margin-top: 100px;
+  margin-bottom: 100px;  
+}
+
+/* ----------------------classes---------------------- */
+.top-container {
+  background-color:#181e34;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  position: relative;
+}
+.middleh2color {
+  color: #9BE3DE;
+}
+.top-cloud {
+  position:absolute;
+  right: 500px;
+  top: 150px;
+  z-index: 69;
+}
+.bottom-cloud {
+  position:absolute;
+  left: 450px;
+  bottom: 2280px;
+  top: 350px;
+  z-index: 2;
+}
+.comet {
+  position: absolute;
+  left: 800px;
+  bottom: 700px;
+  rotate: 45deg;
+  z-index: 69;
+}
+.galaxy {
+  position: absolute;
+  transform: scale(0.4);
+  right: 20px;
+  transform: rotate(90deg); 
+}
+.selfie {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.chart {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.scott {
+  border-radius: 50%;
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.helena {
+  font-size: 2rem;
+}
+.mountain {
+  position: relative;
+  height: 606.9px;
+  width: 1016.6px; 
+  z-index: 69;
+}
+.skill-row {
+  width: 60%;
+  margin: 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-rowp {
+  font-size: 16px;
+}
+.chart-text {
+  margin-left: 30px;
+}
+.bottom-container {
+  background-color: #363062;
+  height: 175px;
+}
+.footer-link {
+  position: relative;
+  top: 20px;
+  margin-top: 20px;
+  padding: 1%; 
+  font-size: 25px;
+  font-family: 'Secular One', sans-serif;
+}
+.idekbottomthingy {
+  position: relative;
+  top: 50px;
+  font-size: larger;
+  color: lightgray;
+}
+.top-page {
+  background-color:#181e34;
+  position: relative;
+  padding-top: 40px;
+  
+}
+.star2 {
+  position: absolute;
+  bottom: 550px;
+}
+.star3 {
+  position:absolute;
+  bottom: 550px;
+  right: 430px;
+  rotate: 180deg;
+}
+.star4 {
+  position: absolute;
+  bottom: 550px;
+  right: 880px;
+  rotate: 270deg;
+}
+.star5 {
+  position: absolute;
+  bottom: 550px;
+  right: 1330px;
+}
+.star6 {
+  position: absolute;
+  bottom: 550px;
+  right: 1780px;
+}
+.star7 {
+  position: absolute;
+  bottom: 110px;
+  rotate: 180deg;
+}
+.star8 {
+  position: absolute;
+  bottom: 110px;
+  right: 450px;
+}
+.star9 {
+  position: absolute;
+  bottom: 110px;
+  right: 890px;
+  rotate: 180deg;
+}
+.star10 {
+  position: absolute;
+  bottom: 110px;
+  right: 1330px;
+  rotate: 90deg;
+}
+.star11 {
+  position: absolute;
+  bottom: 110px;
+  right: 1770px;
+}
+.star12 {
+  position: absolute;
+  bottom: 0px;
+}
+.star13 {
+  position: absolute;
+  bottom: 0;
+  right: 430px;
+}
+.star14 {
+  position: absolute;
+  bottom: 0;
+  right: 860px;
+}
+.star15 {
+  position: absolute;
+  bottom: 0;
+  right: 1290px;
+}
+.star16 {
+  position: absolute;
+  bottom: 0;
+  right: 1720px;
+}
+.moon {
+  position: absolute;
+  bottom: 575px;
+  right: 1500px;
+  rotate: 180deg;
+}
+.scott-ramona {
+  position: absolute;
+  bottom: 360px;
+  right: 1px;
+}
+.gradient {
+  position: relative;
+  width: 100vw;
+  height: 150px;
+  background: rgb(24,30,52);
+  background: linear-gradient(180deg, rgba(24,30,52,1) 0%, rgba(72,70,80,1) 100%);
+}
+.subspacedoor {
+  position: absolute;
+  left: 100px;
+  top: 75px;
+}
+.fallingthroughsubspace {
+  position: absolute;
+  top: 330px;
+  left: 100px;
+  height: 641.5;
+  width: 299;
+}
+.btn {
+  background: #711A75;
+  background-image: -webkit-linear-gradient(top, #711A75, #180A0A);
+  background-image: -moz-linear-gradient(top, #711A75, #180A0A);
+  background-image: -ms-linear-gradient(top, #711A75, #180A0A);
+  background-image: -o-linear-gradient(top, #711A75, #180A0A);
+  background-image: linear-gradient(to bottom, #711A75, #180A0A);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 3px 3px 7px #666666;
+  -moz-box-shadow: 3px 3px 7px #666666;
+  box-shadow: 3px 3px 7px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 16px 8px 16px;
+  border: solid #000000 3px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #180A0A;
+  background-image: -webkit-linear-gradient(top, #180A0A, #711A75);
+  background-image: -moz-linear-gradient(top, #180A0A, #711A75);
+  background-image: -ms-linear-gradient(top, #180A0A, #711A75);
+  background-image: -o-linear-gradient(top, #180A0A, #711A75);
+  background-image: linear-gradient(to bottom, #180A0A, #711A75);
+  text-decoration: none;
+}
+/* ----------------------ids---------------------- */
+
